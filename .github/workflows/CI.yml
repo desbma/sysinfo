@@ -164,3 +164,4 @@ jobs:
             curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --default-toolchain none -y
             $HOME/.cargo/bin/rustup toolchain install stable --profile minimal
             $HOME/.cargo/bin/cargo check
+            $HOME/.cargo/bin/cargo test
